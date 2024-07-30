@@ -1,232 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Portfolio | Matheus Sodré dos Santos</title>
+    <title>Portfolio - QA</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMbDSfUisojIBMRq0s1BYs0g0W4tS4JrI8YTAPV" crossorigin="anonymous">
 </head>
 <body>
-    <!---Cabeçalho-Main-->
-
-    <div class="background">
-        <nav>
-            <h2 class="logo">Portfo<span>lio</span></h2><!--Logo-->
-            <ul class="cabeçalho-link">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobre">Sobre mim</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul><!--cabeçalho-link-->
-        </nav>
-
-        <div id="inicio" class="Main">
-            <h4>Ola, meu nome é</h4>
-            <h1>Matheus <span>Sodré</span></h1>
-            <h3>Eu sou um Analista de Testes de Software Jr</h3>
-            <div class="Container-btn">
-            </div><!--Container-btn-->
-        </div><!--Main-->
-    </div><!--background-->
-
-
-    <!--Começo-da-seção-sobre-->
-
-    <section class="background-color-Sobre">
-        <div class="main-sobre">
-            <img src="main-img.png">
-            <div id="sobre" class="Text-sobre">
-                <h2>Sobre-Mim</h2>
-                <h5>Analista de Testes de Software</h5>
-                <p>Sou analitico, procuro sempre deixar o código com qualidade e respeitando as regras de negócio. Utilizando ferramentas como JIRA, Postman, Selenium WebDriver, Selenium IDE, Testes Manuais, Testes Automatizados, Criando casos de Testes e Roteiros de Testes.</p>
-            </div><!--Text-sobre-->
-        </div><!--main-sobre-->
-    </section><!--background-color-Sobre-->
-
-    <!--Começo-da-seção-nossos-serviços-->
-
-    <div id="habilidades" class="Container-serviços">
-        <div class="title">
-            <h2>Minhas Habilidades</h2>
-        </div><!--title-->
-
-        <div class="Caixa">
-            <div class="Card">
-                <i class="fas fa-bars"></i>
-                <h5>Teste manual/automatizados</h5>
-                <div class="Paragrafo-button">
-                    <p>Última.school</p>
-                </div><!--Paragrafo-button-->
-            </div><!--Card-->
-            
-            <div class="Card">
-                <i class="fas fa-bars"></i>
-                <h5>Testes Móveis</h5>
-                <div class="Paragrafo-button">
-                    <p>Última.school</p>
-                </div><!--Paragrafo-button-->
-            </div><!--Card-->
-            
-             <div class="Card">
-                <i class="fas fa-bars"></i>
-                <h5>Cucumber</h5>
-                <div class="Paragrafo-button">
-                    <p>Última.school</p>
-                </div><!--Paragrafo-button-->
-            </div><!--Card-->
-            
-            <div class="Card">
-                <i class="fas fa-bars"></i>
-                <h5>NodeJS</h5>
-                <div class="Paragrafo-button">
-                    <p>Última.school</p>
-                </div><!--Paragrafo-button-->
-            </div><!--Card-->
-            
-            <div class="Card">
-                <i class="fas fa-bars"></i>
-                <h5>Swagger</h5>
-                <div class="Paragrafo-button">
-                    <p>Última.school</p>
-                </div><!--Paragrafo-button-->
-            </div><!--Card-->
-            
-            <div class="Card">
-                <i class="fas fa-bars"></i>
-                <h5>Docker</h5>
-                <div class="Paragrafo-button">
-                    <p>Última.school</p>
-                </div><!--Paragrafo-button-->
-            </div><!--Card-->
-            
-            <div class="Card">
-                <i class="fas fa-bars"></i>
-                <h5>Azure DevOPS - Board</h5>
-                <div class="Paragrafo-button">
-                    <p>QA.Coders</p>
-                </div><!--Paragrafo-button-->
-            </div><!--Card-->
-            
-            <div class="Card">
-                <i class="fas fa-bars"></i>
-                <h5>Postman Test</h5>
-                <div class="Paragrafo-button">
-                    <p>QA.Coders/Última.school</p>
-                </div><!--Paragrafo-button-->
-            </div><!--Card-->
-            
-            <div class="Card">
-                <i class="fas fa-bars"></i>
-                <h5>Testes de API/h5>
-                <div class="Paragrafo-button">
-                    <p>Última.school</p>
-                </div><!--Paragrafo-button-->
-            </div><!--Card-->
-                
-             <div class="Card">
-                <i class="fas fa-bars"></i>
-                <h5>Docker/h5>
-                <div class="Paragrafo-button">
-                    <p>Última.school</p>
-                </div><!--Paragrafo-button-->
-            </div><!--Card-->
-                 
-                 <div class="Card">
-                <i class="fas fa-bars"></i>
-                <h5>Testes de Integração/h5>
-                <div class="Paragrafo-button">
-                    <p>Última.school</p>
-                </div><!--Paragrafo-button-->
-            </div><!--Card-->
-            
-            <div class="Card">
-                <i class="fas fa-bars"></i>
-                <h5>Automação de Web e API com Ruby + Cucumber</h5>
-                <div class="Paragrafo-button">
-                    <p>QA.Coders</p>
-                </div><!--Paragrafo-button-->
-            </div><!--Card-->
-                     
-            <div class="Card">
-                <i class="fas fa-bars"></i>
-                <h5>Banco de Dados MongoDB</h5>
-                <div class="Paragrafo-button">
-                    <p>QA.Coders</p>
-                </div><!--Paragrafo-button-->
-            </div><!--Card-->
-            
-            <div class="Card">
-                <i class="fas fa-bars"></i>
-                <h5>Testes Ágeis e Scrum</h5>
-                <div class="Paragrafo-button">
-                    <p>Última.school</p>
-                </div><!--Paragrafo-button-->
-            </div><!--Card-->
-            
-            <div class="Card">
-                <i class="fas fa-bars"></i>
-                <h5>Teste unidade</h5>
-                <div class="Paragrafo-button">
-                    <p>Última.school</p>
-                </div><!--Paragrafo-button-->
-            </div><!--Card-->
-
-            <div class="Card">
-                <i class="fas fa-user"></i>
-                <h5>HTML/CSS/JS</h5>
-                <div class="Paragrafo-button">
-                    <p>Última.school</p>
-                </div><!--Paragrafo-button-->
-            </div><!--Card-->
-
-            <div class="Card">
-                <i class="fas fa-bell"></i>
-                <h5> SQL e GIT</h5>
-                <div class="Paragrafo-button">
-                    <p>Última.school</p>
-                </div><!--Paragrafo-button-->
-            </div><!--Card-->
-            
-            <div class="Card">
-                <i class="fas fa-bell"></i>
-                <h5> CI/CD</h5>
-                <div class="Paragrafo-button">
-                    <p>Última.school</p>
-                </div><!--Paragrafo-button-->
-            </div><!--Card-->
-            
-                     <div class="Card">
-                <i class="fas fa-bell"></i>
-                <h5> Selenium IDE/WebDriver</h5>
-                <div class="Paragrafo-button">
-                    <p>Última.school</p>
-                </div><!--Paragrafo-button-->
-            </div><!--Card-->
-            <div class="Card">
-                <i class="fas fa-user"></i>
-                <h5>JIRA/Confluence</h5>
-                <div class="Paragrafo-button">
-                    <p>Última.school</p>
-                </div><!--Paragrafo-button-->
-            </div><!--Card-->
-        </div><!--Caixa-->
-    </div><!--Conatiner-serviços-->
-
-    <!--Rodapé--->
-    <footer>
-          <h6>Matheus Sodré dos Santos</h6>
-        <div id="contato" class="Redes-sociais">
-            <a href="https://www.linkedin.com/in/matheusssodre/"><i class="fab fa-linkedin"></i></a>
-            <a href="mailto:matheusssodre98@gmail.com""><i class="fab fa-google"></i></a>
-        </div><!--Redes-sociais-->
-        <p class="end"></p>
-    </footer>
-
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Matheus Sodré</h1>
+            <p class="lead">Quality Assurance Engineer</p>
+            <nav>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item"><a class="nav-link text-white" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#experiencia">Experiência</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#projetos">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     
+    <section id="sobre" class="container my-5">
+        <h2 class="text-center mb-4">Sobre Mim</h2>
+        <p class="text-center">Profissional de Quality Assurance com 2 anos de experiência em testes manuais e automatizados. Especializado em garantir a qualidade de software através de metodologias ágeis e ferramentas de automação de testes.</p>
+    </section>
+    
+    <section id="experiencia" class="container my-5">
+        <h2 class="text-center mb-4">Experiência Profissional</h2>
+        <div class="card mb-4">
+            <div class="card-body">
+                <h3 class="card-title">ZENVIA</h3>
+                <p class="card-text"><strong>Quality Assurance Assitant</strong></p>
+                <p class="card-text">06/2023 - Presente</p>
+                <ul>
+                    <li>Desenvolvimento e execução de planos de testes manuais e automatizados.</li>
+                    <li>Implementação de frameworks de automação de testes utilizando Selenium e JUnit.</li>
+                    <li>Colaboração com equipes de desenvolvimento para identificar e resolver bugs.</li>
+                    <li>Participação em reuniões de sprint e planejamento de releases.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card mb-4">
+            <div class="card-body">
+                <h3 class="card-title">Trinca</h3>
+                <p class="card-text"><strong>QA | Dev</strong></p>
+                <p class="card-text">01/2022 - 12/2022</p>
+                <ul>
+                    <li>Criação de casos de teste detalhados e execução de testes manuais.</li>
+                    <li>Utilização de JIRA para rastreamento de defeitos e comunicação com equipes de desenvolvimento.</li>
+                    <li>Execução de testes de regressão e validação de correções de bugs.</li>
+                    <li>Contribuição para a melhoria contínua dos processos de QA.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card mb-4">
+            <div class="card-body">
+                <h3 class="card-title">Avanade</h3>
+                <p class="card-text"><strong>Quality Assurance</strong></p>
+                <p class="card-text">06/2022 - 12/2022</p>
+                <ul>
+                    <li>Criação de casos de teste detalhados e execução de testes manuais.</li>
+                    <li>Utilização de JIRA para rastreamento de defeitos e comunicação com equipes de desenvolvimento.</li>
+                    <li>Execução de testes de regressão e validação de correções de bugs.</li>
+                    <li>Contribuição para a melhoria contínua dos processos de QA.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projetos" class="container my-5">
+        <h2 class="text-center mb-4">Projetos no GitHub</h2>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title"><a href="https://github.com/eumatheussodre/Projetos-em-SeleniumJava" target="_blank">Projetos em Selenium em Java</a></h3>
+                        <p class="card-text">Foi realizado o desenvolvimento de alguns projetos em Selenium</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title"><a href="https://github.com/eumatheussodre/Projetos-Robot" target="_blank">Projetos em Robot Framework</a></h3>
+                        <p class="card-text">Foi realizado o desenvolvimento de alguns projetos em Robot Framework</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contato" class="container my-5">
+        <h2 class="text-center mb-4">Contato</h2>
+        <p class="text-center"><i class="fas fa-envelope"></i> Email: <a href="mailto:matheusssodre98@gmail.com">matheusssodre98@gmail.com</a></p>
+        <p class="text-center"><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/eumatheussodre/" target="_blank">linkedin.com/in/eumatheussodre/</a></p>
+        <p class="text-center"><i class="fab fa-github"></i> GitHub: <a href="https://github.com/eumatheussodre" target="_blank">github.com/eumatheussodre</a></p>
+    </section>
+    
+    <footer class="bg-primary text-white text-center py-3">
+        <p>&copy; 2024 - Matheus Sodré</p>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>
